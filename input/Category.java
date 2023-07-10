@@ -1,20 +1,9 @@
-package eStoreProduct.model.admin.input;
+package eStoreProduct.model.customer.input;
 
 public class Category {
 	private Integer prct_id;
 	private String prct_title;
 	private String prct_desc;
-
-	public Category() {
-
-	}
-
-	public Category(long prct_id, String prct_title, String prct_desc) {
-		super();
-		this.prct_id = (int) prct_id;
-		this.prct_title = prct_title;
-		this.prct_desc = prct_desc;
-	}
 
 	public Category(int prct_id, String prct_title, String prct_desc) {
 		super();

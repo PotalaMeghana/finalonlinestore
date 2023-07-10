@@ -1,4 +1,4 @@
-package eStoreProduct.model.admin.input;
+package eStoreProduct.model.customer.input;
 
 public class Product {
 
@@ -9,7 +9,17 @@ public class Product {
 	private String prod_brand;
 	private String image_url;
 	private String prod_desc;
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
 	private int reorderLevel;
+	private double price;
 
 	public Product() {
 
